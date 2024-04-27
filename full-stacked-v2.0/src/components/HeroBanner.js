@@ -13,7 +13,7 @@ function HeroBanner() {
       position='relative'
       p='20px'
     >
-      <Typography color='#ff2625' fontWeight='600' fontSize='26px'>
+      <Typography color='#2336E4' fontWeight='600' fontSize='26px'>
         LIFT // TRACK // LIFT
       </Typography>
       <Typography
@@ -31,13 +31,13 @@ function HeroBanner() {
         variant='contained'
         color='error'
         href='#exercises'
-        sx={{ backgroundColor: '#ff2625', padding: '10px' }}
+        sx={{ backgroundColor: '#2336E4', padding: '10px' }}
       >
         Explore Exercises
       </Button>
       <Typography
         fontStyle={600}
-        color='#ff2625'
+        color='#2336E4'
         sx={{ opacity: 0.1, display: { lg: 'Block', xs: 'none' } }}
         fontSize='200px'
       >

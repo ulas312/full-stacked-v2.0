@@ -28,15 +28,15 @@ function Navbar() {
           to='/'
           style={{
             textDecoration: 'none',
-            color: '#3A1212',
-            borderBottom: '3px solid #FF2625',
+            color: '#2336E4',
+            borderBottom: '3px solid #2336E4',
           }}
         >
           Home
         </Link>
         <Link
           to='#exercises'
-          style={{ textDecoration: 'none', color: '#3A1212' }}
+          style={{ textDecoration: 'none', color: '#2336E4' }}
         >
           Exercises
         </Link>
