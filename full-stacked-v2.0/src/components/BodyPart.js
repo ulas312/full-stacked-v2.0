@@ -12,7 +12,7 @@ export const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       justifyContent='center'
       className='bodyPart-card'
       sx={{
-        borderTop: bodyPart === item ? '4px solid #ff2625' : '',
+        borderTop: bodyPart === item ? '4px solid #2336E4' : '',
         borderBottomLeftRadius: '20px',
         backgroundColor: '#fff',
         width: '270px',
@@ -33,7 +33,7 @@ export const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       <Typography
         fontSize='24px'
         fontWeight='bold'
-        color='#3A1212'
+        color='#2336E4'
         textTransform='capitalize'
       >
         {item}
